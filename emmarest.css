@@ -1,0 +1,308 @@
+
+
+body{
+    max-width: 100vw;
+    height: auto;
+   }
+
+   .body{
+    background-image: url('c:/Users/User/Desktop/SUAVEDEF/IT/Project 1/pngtree-vibrant-vector-paint-strokes-on-white-background-textured-brushstrokes-with-a-image_13921412.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 600px;
+    margin-top: 90px;
+   }
+
+/*.body-exhibition{
+    background-image: url('c:/Users/User/desktop/SUAVEDEF/Emmarest/images/360_F_784537878_7jRZWFQcVjqbMSJN7RGoJunXqCMPYfoA.jpg');
+    width: 1500px;
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}*/
+
+
+
+header{
+   display: inline-block;
+   width: 100%;
+   height: 100px;
+   background-color: black;
+   margin-top: -100px;
+   margin-left: -8px;
+}
+
+.head{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: fantasy sans-serif;
+}
+
+.navigate{
+    /*display: flex;*/
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 35px;
+    margin-right: -45px;
+    width: 1000px;
+}
+
+.anchor{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+  
+}
+
+.nav-anchor{
+    background-color: rgb(4, 220, 253);
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.anchor:hover{
+    background-color: white;
+    color: black;
+}
+
+.image fieldset{
+   /* margin-top: -25px;
+    padding: 40px;
+    border-color: aqua;
+    border-radius: 70px;
+    box-sizing: 150% black;*/
+    display: inline-block;
+    margin-top: -25px;
+    width: 800px;
+}
+
+.inline{
+  display: flex;
+  align-items: center;
+  gap: 200px;;
+  position: relative;
+}
+
+
+fieldset{
+    width: 400px;
+    justify-content: end;
+    height: 490px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url('c:/Users/User/Desktop/SUAVEDEF/IT/Project 1/oil-paint.jpg');
+    color: white;
+    margin-top: 25px;
+}
+
+input{
+    height: 20px;
+}
+
+input, textarea, select{
+    width: 400px;
+    border: 2px solid black;
+    
+}
+
+option{
+    height: 30px;;
+}
+
+.looks{
+    border-radius: 30px;
+    border: 7px solid #0a0a23;
+    padding: 0;
+    margin: 40px;
+}
+
+h3{
+    font-family: Tahoma;
+}
+
+.strip{
+    display: inline-block;
+    position: relative;
+}
+
+label{
+    margin-top: 7px; 
+    color: black;
+
+}
+
+
+span{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about-main{
+    width: 1600px;
+    height: auto;
+    gap: 30px;
+   display: flex;
+    margin:auto;
+    padding-top: 100px;
+
+}
+
+.adjust{
+   margin-top: -150px 
+}
+
+.about-display-1{
+    width: 400px;
+    height: 400px;
+    justify-content: left;
+    text-align: center;
+    border: 2px double rgb(4, 220, 253);
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+
+.about-display-2{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px double rgb(4, 220, 253);
+    margin-top: 30px;
+}
+
+.about-display-3{
+    width: 400px;
+    height: 400px;
+    justify-content: right;
+    text-align: center;
+    border: 2px double rgb(4, 220, 253);
+    margin-top: 30px;
+}
+
+.about-subhead{
+    background-color: rgb(4, 220, 253);
+    background-position: center;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.about-body{
+    font-size:medium;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+.sign{
+    margin-left: 130px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+
+footer{
+    background-color: rgb(4, 220, 253);
+    background-position: center;
+    width: 1500px;
+    height: 150px;
+    margin-top: 60px;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+.after-footer{
+    background-color: #0a0a23;
+    width: 1500px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.section-1{
+    background-color: rgba(250,250,250, 0.5);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    margin-top: -110px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%s;
+    height: auto;
+    margin: 100px;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.gallery-display{
+    width: 300px;
+    height: 300px;
+    border: 7px solid black;
+    
+}
+
+.gallery-1{
+    justify-content: left;
+    width: 300px;
+    height: 300px;
+   
+}
+
+.gallery-2{
+    justify-content: left;
+    width: 300px;
+    height: 300px;
+    
+}
+.gallery-3{
+    justify-content: right;
+    width: 300px;
+    height: 300px;
+   
+}
+
+.gallery-4{
+    justify-content: end;
+    width: 300px;
+    height: 300px;
+}
+
+.caption{
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.text{
+    color: black;
+    font-family: fantasy;
+    font-size: xx-large;
+    padding-top: 100px;
+    margin-bottom: -80px;
+}
